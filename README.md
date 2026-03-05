@@ -7,6 +7,10 @@ The system analyzes historical workout data and generates **actionable insights*
 Unlike basic workout trackers, GymIQ focuses on **performance analytics and training intelligence**.
 
 ---
+# Why I Built This?
+
+I go to the gym seriously and I wanted to predict when I'm overtraining before I get injured, so I built a system that tracks fatigue and forecasts my 1RM progression
+---
 
 # Features
 
@@ -270,14 +274,7 @@ The goal of GymIQ is to transform raw workout logs into **meaningful performance
 
 ## Author
 
-**Aman Phadke**
-
-Computer Science student interested in:
-
-* Machine Learning
-* Data Science
-* Performance analytics
-* AI-driven applications
+**Aman Phadke** — CS student building data-driven tools for real-world problems. Built GymIQ for personal use as an active gym goer to train smarter using data science.
 
 ---
 
