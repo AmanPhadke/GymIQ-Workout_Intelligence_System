@@ -1,59 +1,174 @@
-# GymIQ-Workout-Intelligence-System
+# GymIQ – Workout Intelligence System
 
-## Problem Statement?
-### GymIQ is a Workout Intelligent Analytics System that analyses your gym workout progress
+GymIQ is a **data-driven workout analysis and performance intelligence system** designed to help gym-goers understand their training patterns, fatigue levels, and strength progress using **data science and statistical modeling**.
 
-## What it does?
-### Progress Tracking:
--	Visualize strength over time
--	Calculate volume (sets × reps × weight)
--	Show personal records
--	Track consistency
+The system analyzes historical workout data and generates **actionable insights** such as optimal rest days, fatigue warnings, personal records, and strength progression trends.
 
-  
-### Predictive Analytics:
--	Predict 1RM (one-rep max)
--	Forecast: "You'll hit 100kg squat in 8 weeks"
--	Linear regression on progress
--	Confidence intervals
+Unlike basic workout trackers, GymIQ focuses on **performance analytics and training intelligence**.
 
-  
-### Pattern Detection:
--	"You squat best on Mondays"
--	"Your bench drops 15% after deadlifts"
--	"Optimal recovery: 48 hours"
--	Correlation analysis
+---
 
-  
-### Optimization Recommendation:
--	"You'll reach 142.5kg 1RM in squat by session 89 (95% confidence)"
--	"Deload week recommended (fatigue detected)"
+# Features
 
-  
-### Interactive Dashboards:
--	Streamlit app
--	Upload workout log → Get insights
--	Adjust training plan based on predictions
+## 1. Workout Analytics
 
+GymIQ analyzes workout logs and computes key training metrics including:
 
+* Total training volume
+* Weekly workload trends
+* Rolling workload averages
+* Session tracking using Session IDs
 
+These analytics help visualize **training consistency and workload fluctuation over time**.
 
-# Tech Stack:
--	Pandas (data manipulation)
-- Scikit-learn (linear regression, predictions)
--	Plotly (visualizations)
--	Streamlit (dashboard)
--	Statsmodels (time series, confidence intervals)
+---
 
+## 2. Strength Modeling (1RM Prediction)
 
+The system estimates **One Rep Max (1RM)** using historical workout data and applies modeling techniques to forecast strength progression.
 
-# Skills Shown:
--	Data analysis
--	Predictive modeling
--	Time series
--	Feature engineering
--	Business logic (progressive overload)
--	Domain expertise (fitness)
+Capabilities include:
 
+* Predicted 1RM progression
+* Target strength estimation
+* Forecasting future strength levels
+* Performance comparison between predicted vs actual strength
 
+---
+
+## 3. Fatigue Monitoring System
+
+GymIQ calculates a **Fatigue Ratio** from workout data to detect accumulated fatigue.
+
+The system provides:
+
+* Fatigue trend analysis
+* High fatigue warnings
+* Deload recommendations
+
+Thresholds are determined using statistical methods such as:
+
+* Mean fatigue level
+* Standard deviation thresholds
+* Rolling fatigue averages
+
+This helps prevent **overtraining and performance decline**.
+
+---
+
+## 4. Optimal Rest Day Analysis
+
+Using residual analysis from performance models, GymIQ determines which rest durations produce the best results.
+
+Example insight:
+
+> “Better performance observed with 3 days of recovery compared to 2 days.”
+
+This helps optimize recovery strategies for consistent progress.
+
+---
+
+## 5. Personal Records Detection
+
+GymIQ automatically detects new **Personal Records (PRs)** across exercises.
+
+It tracks:
+
+* Historical maximum 1RM
+* Exercise-specific PRs
+* Session-based strength improvements
+
+This allows athletes to monitor **true strength progression** rather than just lifted weight.
+
+---
+
+## 6. Performance Statistics
+
+The system computes additional statistics such as:
+
+* Rolling performance averages
+* Historical comparison metrics
+* Progress compared to past sessions
+
+Example metric:
+
+> Average performance in the last 8 sessions vs performance 30 sessions ago.
+
+---
+
+## Tech Stack
+
+* **Python**
+* **Pandas** – Data analysis
+* **NumPy** – Numerical computations
+* **Scikit-learn** – Modeling
+* **Plotly** – Interactive visualizations
+* **Streamlit** – Application interface
+
+---
+
+## Project Structure
+
+```
+GymIQ
+│
+├── app.py                     # Streamlit application
+│
+├── models
+│   ├── modeling.ipynb         # Strength prediction models
+│   ├── personal_stats.py      # Performance statistics
+│   └── solid_analytics.ipynb  # Workout analytics
+│
+├── notebooks
+│   ├── GymIQ - Modeling.ipynb
+│   ├── GymIQ - Stats.ipynb
+│   └── GymIQ - Workout Intelligence System.ipynb
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## Example Insights Generated
+
+GymIQ can generate insights such as:
+
+* "You are expected to reach a 150kg squat by session 95."
+* "High fatigue detected. Consider reducing training intensity."
+* "Performance improves when taking 3 rest days between squat sessions."
+* "New Personal Record detected for Bench Press."
+
+---
+
+## Future Improvements
+
+Planned improvements include:
+
+* Database integration for workout storage
+* User profile and weight-class comparisons
+* Machine learning models for improved prediction
+* AI-based workout recommendations
+* Advanced visualization dashboards
+
+---
+
+## Goal of the Project
+
+The goal of GymIQ is to transform raw workout logs into **meaningful performance intelligence**, allowing gym-goers to train smarter using data.
+
+---
+
+## Author
+
+**Aman Phadke**
+
+Computer Science student interested in:
+
+* Machine Learning
+* Data Science
+* Performance analytics
+* AI-driven applications
+
+---
 
