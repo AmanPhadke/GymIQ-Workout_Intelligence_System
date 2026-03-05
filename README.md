@@ -256,7 +256,7 @@ Planned improvements include:
 
 * Database integration for workout storage
 * User profile and weight-class comparisons
-* Machine learning models for improved prediction
+* More Advanced Machine learning models for improved prediction
 * AI-based workout recommendations
 * Advanced visualization dashboards
 
