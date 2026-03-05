@@ -133,7 +133,7 @@ GymIQ
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/GymIQ.git
+git clone https://github.com/AmanPhadke/GymIQ.git
 cd GymIQ
 ```
 
