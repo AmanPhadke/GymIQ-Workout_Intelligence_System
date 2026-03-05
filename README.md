@@ -9,7 +9,7 @@ Unlike basic workout trackers, GymIQ focuses on **performance analytics and trai
 ---
 # Why I Built This?
 
-I go to the gym seriously and wanted to predict overtraining before injury strikes — existing apps just track weights, they don't think. So I built a system that uses statistical modeling to track fatigue, forecast 1RM progression and tell me when to back off.
+I go to the gym seriously and wanted to predict overtraining before injury strikes. Existing apps just track weights, they don't think. So I built a system that uses statistical modeling to track fatigue, forecast 1RM progression and tell me when to back off.
 
 ---
 
