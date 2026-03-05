@@ -13,6 +13,10 @@ I go to the gym seriously and I wanted to predict when I'm overtraining before I
 
 ---
 
+<img width="1919" height="929" alt="Sidebar" src="https://github.com/user-attachments/assets/604a8927-b0c0-4860-b597-9f0fa01c281b" />
+
+---
+
 # Features
 
 ## 1. Workout Analytics
@@ -28,6 +32,10 @@ These analytics help visualize **training consistency and workload fluctuation o
 
 ---
 
+<img width="1728" height="886" alt="Recovery_Tab" src="https://github.com/user-attachments/assets/44551ae9-127c-41df-a7ec-b4d8a2b4a21f" />
+
+---
+
 ## 2. Strength Modeling (1RM Prediction)
 
 The system estimates **One Rep Max (1RM)** using historical workout data and applies modeling techniques to forecast strength progression.
@@ -38,6 +46,10 @@ Capabilities include:
 * Target strength estimation
 * Forecasting future strength levels
 * Performance comparison between predicted vs actual strength
+
+---
+
+<img width="1762" height="683" alt="Estimated_1R_Prediction" src="https://github.com/user-attachments/assets/07aede37-916c-41f7-85d8-8c4290162cc8" />
 
 ---
 
@@ -61,6 +73,10 @@ This helps prevent **overtraining and performance decline**.
 
 ---
 
+<img width="1840" height="869" alt="Fatigue_Status" src="https://github.com/user-attachments/assets/9ecaa4ab-37d8-41b1-b844-6f794b19d67b" />
+
+---
+
 ## 4. Optimal Rest Day Analysis
 
 Using residual analysis from performance models, GymIQ determines which rest durations produce the best results.
@@ -70,6 +86,10 @@ Example insight:
 > “Better performance observed with 3 days of recovery compared to 2 days.”
 
 This helps optimize recovery strategies for consistent progress.
+
+---
+
+<img width="1294" height="741" alt="image" src="https://github.com/user-attachments/assets/4930c699-087d-4dfc-acba-85c35a3cff08" />
 
 ---
 
