@@ -127,7 +127,101 @@ GymIQ
 ├── README.md
 └── LICENSE
 ```
+---
+Installation & Dependencies
 
+1. Clone the Repository
+
+git clone https://github.com/your-username/GymIQ.git
+cd GymIQ
+
+2. Create a Virtual Environment (Recommended)
+
+python -m venv venv
+
+Activate the environment:
+
+Windows
+
+venv\Scripts\activate
+
+Mac / Linux
+
+source venv/bin/activate
+
+3. Install Required Dependencies
+
+Install the required Python libraries:
+
+pip install pandas numpy plotly scikit-learn streamlit
+
+Alternatively, if a "requirements.txt" file is provided:
+
+pip install -r requirements.txt
+
+---
+
+Running the Application
+
+GymIQ uses Streamlit to provide an interactive interface.
+
+Run the application with:
+
+streamlit run app.py
+
+After running the command, Streamlit will open the application in your browser.
+
+Default local address:
+
+http://localhost:8501
+
+---
+
+Deployment
+
+Deploy on Streamlit Cloud (Recommended)
+
+1. Push the project to a GitHub repository
+2. Go to Streamlit Cloud
+   https://streamlit.io/cloud
+3. Connect your GitHub account
+4. Select the repository
+5. Choose the entry file:
+
+app.py
+
+6. Deploy the application
+
+Streamlit will automatically install dependencies and host your app.
+
+---
+
+Alternative Deployment Options
+
+GymIQ can also be deployed using:
+
+- Docker
+- AWS EC2
+- Render
+- Heroku
+
+For most personal projects, Streamlit Cloud is the easiest option.
+
+---
+
+requirements.txt (Example)
+
+You can generate a requirements file using:
+
+pip freeze > requirements.txt
+
+Example:
+
+pandas
+numpy
+plotly
+scikit-learn
+streamlit
 ---
 
 ## Example Insights Generated
