@@ -162,12 +162,6 @@ source venv/bin/activate
 Install the required Python libraries:
 
 ```bash
-pip install pandas numpy plotly scikit-learn streamlit
-```
-
-Alternatively, if a `requirements.txt` file is provided:
-
-```bash
 pip install -r requirements.txt
 ```
 
@@ -223,26 +217,24 @@ GymIQ can also be deployed using:
 * **Render**
 * **Heroku**
 
-For most personal projects, **Streamlit Cloud is the easiest option**.
-
 ---
 
-## requirements.txt (Example)
+## requirements.txt
 
-You can generate a requirements file using:
+The requirements file contains the following dependencies:
 
 ```bash
-pip freeze > requirements.txt
-```
-
-Example:
-
-```
 pandas
 numpy
 plotly
 scikit-learn
 streamlit
+```
+
+they can be installed using
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
