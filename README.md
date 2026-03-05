@@ -128,58 +128,74 @@ GymIQ
 └── LICENSE
 ```
 ---
-Installation & Dependencies
+## Installation & Dependencies
 
-1. Clone the Repository
+### 1. Clone the Repository
 
+```bash
 git clone https://github.com/your-username/GymIQ.git
 cd GymIQ
+```
 
-2. Create a Virtual Environment (Recommended)
+### 2. Create a Virtual Environment (Recommended)
 
+```bash
 python -m venv venv
+```
 
 Activate the environment:
 
-Windows
+**Windows**
 
+```bash
 venv\Scripts\activate
+```
 
-Mac / Linux
+**Mac / Linux**
 
+```bash
 source venv/bin/activate
+```
 
-3. Install Required Dependencies
+### 3. Install Required Dependencies
 
 Install the required Python libraries:
 
+```bash
 pip install pandas numpy plotly scikit-learn streamlit
+```
 
-Alternatively, if a "requirements.txt" file is provided:
+Alternatively, if a `requirements.txt` file is provided:
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
-Running the Application
+## Running the Application
 
-GymIQ uses Streamlit to provide an interactive interface.
+GymIQ uses **Streamlit** to provide an interactive interface.
 
 Run the application with:
 
+```bash
 streamlit run app.py
+```
 
 After running the command, Streamlit will open the application in your browser.
 
 Default local address:
 
+```
 http://localhost:8501
+```
 
 ---
 
-Deployment
+## Deployment
 
-Deploy on Streamlit Cloud (Recommended)
+### Deploy on Streamlit Cloud (Recommended)
 
 1. Push the project to a GitHub repository
 2. Go to Streamlit Cloud
@@ -188,7 +204,9 @@ Deploy on Streamlit Cloud (Recommended)
 4. Select the repository
 5. Choose the entry file:
 
+```
 app.py
+```
 
 6. Deploy the application
 
@@ -196,32 +214,37 @@ Streamlit will automatically install dependencies and host your app.
 
 ---
 
-Alternative Deployment Options
+### Alternative Deployment Options
 
 GymIQ can also be deployed using:
 
-- Docker
-- AWS EC2
-- Render
-- Heroku
+* **Docker**
+* **AWS EC2**
+* **Render**
+* **Heroku**
 
-For most personal projects, Streamlit Cloud is the easiest option.
+For most personal projects, **Streamlit Cloud is the easiest option**.
 
 ---
 
-requirements.txt (Example)
+## requirements.txt (Example)
 
 You can generate a requirements file using:
 
+```bash
 pip freeze > requirements.txt
+```
 
 Example:
 
+```
 pandas
 numpy
 plotly
 scikit-learn
 streamlit
+```
+
 ---
 
 ## Example Insights Generated
